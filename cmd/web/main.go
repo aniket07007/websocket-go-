@@ -2,7 +2,7 @@ package main
 
 import (
 	"log"
-	"main/cmd/internal/handlers"
+	"main/internal/handlers"
 	"net/http"
 )
 

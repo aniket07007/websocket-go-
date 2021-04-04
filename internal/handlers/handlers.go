@@ -14,7 +14,7 @@ var wsChan = make(chan WsPayload)
 var clients = make(map[WebSocketConnection]string)
 
 var views = jet.NewSet(
-	jet.NewOSFileSystemLoader("/home/aniket/Desktop/websockets/cmd/html"),
+	jet.NewOSFileSystemLoader("./html"),
 	jet.InDevelopmentMode(),
 )
 
